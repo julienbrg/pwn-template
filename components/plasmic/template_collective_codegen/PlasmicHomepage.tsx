@@ -179,7 +179,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text___2SiRr
                     )}
                   >
-                    {"pnw-template"}
+                    {"pwn-template"}
                   </div>
                 </Reveal>
 
