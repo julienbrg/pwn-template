@@ -125,7 +125,7 @@ function PlasmicHeader__RenderFunc(props: {
               href={`/`}
               platform={"nextjs"}
             >
-              {"Collective"}
+              {"PWN"}
             </p.PlasmicLink>
           </div>
         ) : null}
