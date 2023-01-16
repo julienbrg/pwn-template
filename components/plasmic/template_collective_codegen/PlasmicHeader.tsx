@@ -146,10 +146,10 @@ function PlasmicHeader__RenderFunc(props: {
                 sty.link__yAnNb
               )}
               component={Link}
-              href={`/contact`}
+              href={`/play`}
               platform={"nextjs"}
             >
-              {"Contact"}
+              {"Play"}
             </p.PlasmicLink>
           </div>
         ) : null}

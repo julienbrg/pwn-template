@@ -4,6 +4,6 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   trailingSlash: true,
-  // Your NextJS config.
+  // output: 'standalone',
 };
     

@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -38,12 +38,13 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "kHKDxG4mQC7eBDvtRUBubb",
       "projectApiToken": "AEuusm6gQmKfXuxgvosmWJAUEYrKZ6G1cAxLEBj9qWq8pof6IwuW9NrJgBHJQVrtP5VJ26WVkx4FJQ6KEsQ",
-      "projectName": "template-collective-codegen",
+      "projectName": "pwn-template",
       "version": "latest",
       "cssFilePath": "plasmic/template_collective_codegen/plasmic_template_collective_codegen.module.css",
       "components": [
@@ -87,19 +88,6 @@
           "componentType": "component"
         },
         {
-          "id": "qv_5q6xx24MsX",
-          "name": "Contact",
-          "type": "managed",
-          "projectId": "kHKDxG4mQC7eBDvtRUBubb",
-          "renderModuleFilePath": "plasmic/template_collective_codegen/PlasmicContact.tsx",
-          "importSpec": {
-            "modulePath": "../pages/contact.tsx"
-          },
-          "cssFilePath": "plasmic/template_collective_codegen/PlasmicContact.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "GNFgpNFk8E3PZ",
           "name": "Button",
           "type": "managed",
@@ -115,14 +103,14 @@
         },
         {
           "id": "AkRKLLayuUUX2",
-          "name": "Post",
+          "name": "Play",
           "type": "managed",
           "projectId": "kHKDxG4mQC7eBDvtRUBubb",
-          "renderModuleFilePath": "plasmic/template_collective_codegen/PlasmicPost.tsx",
+          "renderModuleFilePath": "plasmic/pwn_template/PlasmicPlay.tsx",
           "importSpec": {
-            "modulePath": "../pages/post.tsx"
+            "modulePath": "../pages/play.tsx"
           },
-          "cssFilePath": "plasmic/template_collective_codegen/PlasmicPost.module.css",
+          "cssFilePath": "plasmic/pwn_template/PlasmicPlay.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
