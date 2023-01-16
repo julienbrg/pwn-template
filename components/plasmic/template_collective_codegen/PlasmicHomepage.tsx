@@ -179,7 +179,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text___2SiRr
                     )}
                   >
-                    {"Collective"}
+                    {"pnw-template"}
                   </div>
                 </Reveal>
 
@@ -199,7 +199,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text__fnhWl
                     )}
                   >
-                    {"Just a website template"}
+                    {"Plasmic + Web3Auth + Next.js"}
                   </div>
                 </Reveal>
               </p.Stack>
